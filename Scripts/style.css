@@ -1,4 +1,4 @@
-/*thanh cong cu*/
+/* 1. thanh cong cu*/
 /* mau background */
 .topnav {
     overflow: hidden;
@@ -26,14 +26,13 @@
   /* search */
   .topnav input[type=text] {
     float: right;
-    padding: 6px;
-    border: none;
+    padding: 6px;  
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
   }
 
-  /* nut dang nhap*/
+  /* 2.nut dang nhap*/
   a {
     text-decoration: none;
     display: inline-block;
@@ -60,21 +59,12 @@
   .next:hover{
     text-decoration: none;
   }
-  
-  .round {
-    border-radius: 40%;
-  }
-
 
 .top-left img{
     width: 200px;
     height: auto;
 }
-.top-left{
-    display: flex;
-    color: blue;
-    align-items: center;
-}
+
 .top-right{
 
     margin: auto 0;
@@ -83,19 +73,6 @@
 .top{
     display: flex;
     justify-content: space-between;
-}
-h1{
-    margin-left: 10px;
-}
-
-.content{
-    display: flex;
-    background-color: blue;
-    color: white;
-}
-
-.content h2{
-    margin-right: 20px;
 }
 
 img{
