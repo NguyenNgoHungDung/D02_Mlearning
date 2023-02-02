@@ -1,7 +1,79 @@
+/*thanh cong cu*/
+/* mau background */
+.topnav {
+    overflow: hidden;
+    background-color: #0C4DA2;
+  }
+  
+  /* mau chu font chu */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* doi mau`*/
+  .topnav a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* search */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  /* nut dang nhap*/
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    
+  }
+
+  .next {
+    background-color: blue;
+    color: white;
+    
+  }
+  .next:hover{
+    text-decoration: none;
+  }
+  
+  .round {
+    border-radius: 40%;
+  }
+
+
+.top-left img{
+    width: 200px;
+    height: auto;
+}
 .top-left{
     display: flex;
     color: blue;
-    
+    align-items: center;
 }
 .top-right{
 
@@ -15,10 +87,7 @@
 h1{
     margin-left: 10px;
 }
-.top img{
-    width: 50px;
-    height: 50px;
-}
+
 .content{
     display: flex;
     background-color: blue;
@@ -37,14 +106,35 @@ img{
 
 .subcontent {
     display: flex;
+    justify-content: space-between;
 }
 
 .welcome{
-    background-color: #D3D3D3;
+    background-color: #F4F4F4;
+    border-left: 6px solid #0C4DA2;
     margin-bottom: 20%;
+    box-shadow: 0 10px 6px -6px #aaa;
+    margin-top: 20px;
+    margin-left: 15px;
+
 }
 
 .imagine{
     width: 40%;
     height: 30%;
+    display: flex;
+    /* day thang con vao giua */
+    justify-content: center;
 }
+.imagine img{
+    width: 70%;
+    height: auto;
+
+}
+
+.row-fluid{
+    display: flex;
+    /* chia khoang trang bang nhau */
+    justify-content: space-evenly;
+}
+
